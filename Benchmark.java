@@ -43,3 +43,5 @@ public class Benchmark {
         System.out.println("Medições registradas em " + destino);
     }
 }
+
+// update
