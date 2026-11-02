@@ -1,0 +1,10 @@
+problema,entrada,saida_esperada,justificativa
+soma,"3 | -4 -2 -9","soma=-2; inicio=1; fim=1","todos negativos"
+soma,"1 | 7","soma=7; inicio=0; fim=0","tamanho um"
+soma,"3 | 0 0 0","soma=0; inicio=0; fim=0","empates em zeros"
+soma,"3 | 2 -2 2","soma=2; inicio=0; fim=0","empate de soma"
+soma,"6 | -2 5 -1 6 -9 2","soma=10; inicio=1; fim=3","intervalo interno"
+pontos,"2 | 0 0 | 3 4","distancia=5","mínimo tamanho válido"
+pontos,"3 | 1 1 | 1 1 | 5 5","distancia=0","coordenadas repetidas"
+pontos,"4 | 0 0 | 10 0 | 0 0.1 | 10 10","distancia=0.1","par próximo não adjacente na entrada"
+pontos,"3 | -3 -4 | -3 -5 | 10 10","distancia=1","coordenadas negativas"
